@@ -24,6 +24,10 @@ a {
     text-decoration: none;
 }
 
+#btnmenu {
+    display: none;
+}
+
 header {
     width: 100%;
     background-color: var(--cor0);
@@ -56,6 +60,16 @@ header > #cegonha{
     height: 100px;
 }
 
+#menumobile {
+    display: inline-block;
+    height: 100%;
+    width: 20%;
+    padding: 5px;
+    top: 0px;
+    left: 0px;
+    background-color: var(--cor2);
+}
+
 #menulateral {
     display: inline-block;
     height: 100%;
@@ -81,6 +95,16 @@ header > #cegonha{
     margin-bottom: 5px;
     margin-left: 10px;
 
+}
+
+#menumobile > a {
+    padding: 8px;
+    display: block;
+    background-color: var(--cor3);
+    text-decoration: none;
+    margin-top: 15%;
+    color: black;
+    overflow: hidden;
 }
 
 #menulateral > a {
@@ -209,7 +233,19 @@ article.conteudo > p {
         overflow-y: scroll ;
     }
 
-    #menulateral {
+    #menulateral{
+        display: none;
+    }
+
+    #btnmenu {
+        display: inline-block;
+        height: 30px;
+        position: absolute;
+        left: 2%;
+        top: 290px
+    }
+
+    #menumobile {
         display: block;
         width: 100%;
         height: 450px;
@@ -217,7 +253,7 @@ article.conteudo > p {
         background-color: var(--cor2);
     }
     
-    #menulateral > a {
+    #menumobile > a {
         margin: 25px 0px;
         padding: 8px;
         background-color: var(--cor3);
@@ -237,7 +273,7 @@ article.conteudo > p {
         height: 100px;
         position: absolute;
         left: 5%;
-        top: 20%;
+        top: 15%;
     }
 
     section > #hospital {
@@ -297,12 +333,14 @@ article.conteudo > p {
         height: 80px;
         position: absolute;
         left: 70%;
+        bottom: 40%;
     }
     
     #bb2 {
         height: 80px;
         position: absolute;
         left: 50%;
+        bottom: 40%;
     }
 
     article.conteudo {
@@ -316,10 +354,11 @@ article.conteudo > p {
     }
 
     section {
+        height: 100%;
         width: 100%;
         position: absolute; 
         display: inline;
-        overflow: scroll;
+        overflow: hidden;
     }
 }
 
