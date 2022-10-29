@@ -66,6 +66,23 @@ header > #cegonha{
     background-color: var(--cor2);
 }
 
+#voltar {
+    margin: auto;
+}
+
+#voltar img{
+    height: 50px;
+    margin-bottom: -15px;
+}
+
+#voltar h1 {
+    color: white;
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-left: 10px;
+
+}
+
 #menulateral > a {
     padding: 8px;
     display: block;
