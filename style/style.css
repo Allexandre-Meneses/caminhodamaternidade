@@ -20,6 +20,10 @@ body {
     overflow-x: hidden;
 }
 
+a {
+    text-decoration: none;
+}
+
 header {
     width: 100%;
     background-color: var(--cor0);
@@ -190,7 +194,7 @@ article.conteudo > p {
 
     #menulateral {
         display: block;
-        width: 100%;
+        width: 97.5%;
         height: 450px;
         padding: 5px;
         background-color: var(--cor2);
@@ -222,12 +226,12 @@ article.conteudo > p {
     section > #hospital {
         height: 80px;
         position: relative;
-        margin-left: 80%;
+        margin-left: 65%;
         margin-top: 30px;
     }
 
     nav#caminho {
-        width: 100%;
+        width: 80%;
         height: 100%;
         margin-left: 50px;
     }
@@ -275,13 +279,13 @@ article.conteudo > p {
     #bb1 {
         height: 80px;
         position: absolute;
-        left: 80%;
+        left: 70%;
     }
     
     #bb2 {
         height: 80px;
         position: absolute;
-        left: 60%;
+        left: 50%;
     }
 
     article.conteudo {
@@ -298,7 +302,6 @@ article.conteudo > p {
         width: 100%;
         position: absolute; 
         display: inline;
-        overflow: scroll;
     }
 }
 
