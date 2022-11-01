@@ -389,12 +389,16 @@ h1#sobrenos {
         display: inline;
     }
 
+    .pessoa a {
+        color: black;
+    }
+
     .pessoa {
         margin: 50px;
         padding: 15px;
     }
     
-    .pessoa > img {
+    .pessoa img {
         height: 100px;
         border-radius: 10px;
         margin-bottom: 50px;
