@@ -144,6 +144,7 @@ section > #cegonha {
     height: 150px;
     position: absolute;
     left: 300px;
+    margin-top: 70px;
 }
 
 section > #hospital {
@@ -198,13 +199,13 @@ a:hover img {
 #bb1 {
     height: 100px;
     position: absolute;
-    right: 0;
+    right: 80px;
 }
 
 #bb2 {
     height: 100px;
     position: absolute;
-    right: 100px;
+    right: 160px;
 }
 
 article.conteudo {
