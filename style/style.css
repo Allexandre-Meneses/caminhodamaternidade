@@ -240,12 +240,16 @@ h1#sobrenos {
     font-size: 3em;
 }
 
+.pessoa a {
+    color: black;
+}
+
 .pessoa {
     margin: 50px;
     padding: 15px;
 }
 
-.pessoa > img {
+.pessoa img {
     border-radius: 10px;
 }
 
